@@ -1,6 +1,6 @@
 # nightwatch
 
-Este é um repositório para que eu nunca esqueça como instalar o Nightwatch. E aproveitando, para você, que esteja lendo isso aqui, te ajude de alguma forma. Compartilhar conhecimento é uma caridade meritória!
+Este é um repositório para que eu nunca esqueça como instalar o Nightwatch. E aproveitando, para você, que esteja lendo isso aqui, te ajude de alguma forma. Compartilhar conhecimento é uma dádiva!
 
 # Nightwatch.js, o quê é?
 É uma estrutura de testes automatizada tanto para aplicativos e sites que permite usar Javascript.

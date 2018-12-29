@@ -107,8 +107,8 @@ module.exports = {
 Agora, para o momento da verdade, na janela do Terminal (dentro do diretório de automação), simplesmente execute o nó node_modules / nightwatch / bin / nightwatch.
 Você deve abrir o Chrome e realizar uma pesquisa básica.
 
-Obs.: Desculpem, o githut "cagou" meu module.exports, isso tá de dando nervoso? Porque pstou em cólicas com isso!
-Obs.: Não esquecer de sempre ir no site do Nightwatch para tirar dúvidas.
+Obs.: Desculpem, o githut "cagou" a identaço dos testes. Isto está de dando nervoso? Porque estou em cólicas com isso!
+Obs.2: Não esquecer de sempre ir no site do Nightwatch para tirar dúvidas.
 
 
 

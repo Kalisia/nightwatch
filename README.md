@@ -87,18 +87,23 @@ Instale o nightwatch digitando npm install nightwatch.
 # Seu primeiro teste
 Crie um novo arquivo dentro de sua pasta de automação / testes chamada firstTest.js.
 Cole o seguinte conteúdo e salve o arquivo:
+
+
+
 module.exports = {
-  "Pesquisa básica do Google": function (browser) {
+  'Basic Google search' : function (browser) {
     browser
-      .url ('https://www.google.com')
-      .waitForElementVisible ('input [name = "q"]', 1000)
-      .setValue ('input [name = "q"]', 'Crise existencial da cobaia')
-      .submitForm ('form')
-      .waitForElementVisible ('# resultStats', 1000)
-      .assert.urlContains ('q = Guinea + pig')
-      .fim();
+      .url('https://www.google.com')
+      .waitForElementVisible('input[name="q"]', 1000)
+      .setValue('input[name="q"]', 'Guinea pig existential crisis')
+      .submitForm('form')
+      .waitForElementVisible('#resultStats', 1000)
+      .assert.urlContains('q=Guinea+pig')
+      .end();
   }
 };
+
+
 Agora, para o momento da verdade, na janela do Terminal (dentro do diretório de automação), simplesmente execute o nó node_modules / nightwatch / bin / nightwatch.
 Você deve abrir o Chrome e realizar uma pesquisa básica.
 

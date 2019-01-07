@@ -42,7 +42,7 @@ A próxima coisa que vamos fazer é criar um arquivo de configuração para o Ni
 Abra seu editor de texto favorito e crie um arquivo chamado nightwatch.json. Salve isso na pasta de automação.
 Cole o seguinte conteúdo neste novo arquivo:
 
-`
+```json
 {
   "src_folders" : ["tests"],
   "output_folder" : "reports",
@@ -76,8 +76,7 @@ Cole o seguinte conteúdo neste novo arquivo:
     }
   }
 }
-
-
+```
 
 # Instalar Nightwatch.
 Abra sua janela do Terminal. Se você ainda não estiver lá, altere para o diretório de automação digitando cd ~ / automation.

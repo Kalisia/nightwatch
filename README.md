@@ -42,7 +42,7 @@ A próxima coisa que vamos fazer é criar um arquivo de configuração para o Ni
 Abra seu editor de texto favorito e crie um arquivo chamado nightwatch.json. Salve isso na pasta de automação.
 Cole o seguinte conteúdo neste novo arquivo:
 
-
+`
 {
   "src_folders" : ["tests"],
   "output_folder" : "reports",
@@ -88,8 +88,7 @@ Instale o nightwatch digitando npm install nightwatch.
 Crie um novo arquivo dentro de sua pasta de automação / testes chamada firstTest.js.
 Cole o seguinte conteúdo e salve o arquivo:
 
-
-
+```javascript
 module.exports = {
   'Basic Google search' : function (browser) {
     browser
@@ -102,7 +101,7 @@ module.exports = {
       .end();
   }
 };
-
+```
 
 Agora, para o momento da verdade, na janela do Terminal (dentro do diretório de automação), simplesmente execute o nó node_modules / nightwatch / bin / nightwatch.
 Você deve abrir o Chrome e realizar uma pesquisa básica.
